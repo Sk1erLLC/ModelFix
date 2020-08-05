@@ -1,7 +1,6 @@
 # ModelFix
 
-Originally created by [Pepper_Bell](https://www.curseforge.com/members/pepper_bell/projects) on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/item-model-fix) for 1.16.x, 
-and backported to 1.8.9 by community-request as this is a longstanding bug that has been suggested to us to fix in [Patcher](https://sk1er.club/mods/patcher), though the licenses are incompatible, 
-hence why it is its own project.
+Originally created by [Pepper_Bell](https://www.curseforge.com/members/pepper_bell/projects) on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/item-model-fix) for 1.16.x.
+This bad been backported to 1.8.9 by community request. Not currently eligible for inclusion in [Patcher](https://sk1er.club/mods/patcher), due to license incompatibilities. 
 
-#### The original mod is under alpha, thus marking this mod as alpha.
+#### The original mod is labeled as alpha software, and therefore this port is also still in alpha.

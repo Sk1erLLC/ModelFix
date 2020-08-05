@@ -10,7 +10,7 @@ class ItemModelGeneratorTransformer : ModelFixTransformer {
 
     override fun transform(classNode: ClassNode, name: String) {
         classNode.methods.first {
-            it.name == "func_178397_a"
+            mapMethodName(classNode, it) == "func_178397_a"
         }?.apply {
             instructions.clear()
             injectInstructions {

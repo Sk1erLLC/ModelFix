@@ -1,6 +1,8 @@
 package club.sk1er.modelfix.tweaker.transformer;
 
+import net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper;
 import org.objectweb.asm.tree.ClassNode;
+import org.objectweb.asm.tree.MethodNode;
 
 public interface ModelFixTransformer {
     /**
@@ -17,4 +19,15 @@ public interface ModelFixTransformer {
      * @param name      the transformed class name
      */
     void transform(ClassNode classNode, String name);
+
+    /**
+     * Map the method name from notch names
+     *
+     * @param classNode  the transformed class node
+     * @param methodNode the transformed classes method node
+     * @return a mapped method name
+     */
+    default String mapMethodName(ClassNode classNode, MethodNode methodNode) {
+        return FMLDeobfuscatingRemapper.INSTANCE.mapMethodName(classNode.name, methodNode.name, methodNode.desc);
+    }
 }

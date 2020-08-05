@@ -1,0 +1,16 @@
+[
+    {
+        "modid": "ModelFix",
+        "name": "ModelFix",
+        "description": "Fixes lines between item models.",
+        "version": "${version}",
+        "mcversion": "${mcversion}",
+        "url": "https://sk1er.club/mods/modelfix",
+        "updateUrl": "",
+        "authorList": ["Sk1erLLC", "Pepper_Bell"],
+        "credits": "",
+        "logoFile": "",
+        "screenshots": [],
+        "dependencies": []
+    }
+]
